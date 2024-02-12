@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.heading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#add{
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#taskList {
+    margin-top: 20px;
+}
+
+.task {
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    text-align: left;
+}
+
+
